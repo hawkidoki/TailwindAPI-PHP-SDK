@@ -57,7 +57,7 @@ $css = $tailwind->build(array(
 ### Ouput to file
 
 ```php
-$css = $tailwind->build(array(
-    'output' => 'path/to/output.css', // Path should have write permission
+$tailwind->build(array(
+    'output' => 'path/to/output.css', // PHP will need write permission
 ));
 ```
