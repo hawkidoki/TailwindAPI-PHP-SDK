@@ -2,7 +2,7 @@
 
 A `CURL` wrapper to build TailwindCSS with PHP.
 
-## Default usage
+### Default usage
 
 ```php
 require('tailwindapi.php');
