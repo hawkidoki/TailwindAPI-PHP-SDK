@@ -17,7 +17,7 @@ if(!class_exists('TailwindAPI')):
                 'config'        => '',
                 'autoprefixer'  => true,
                 'minify'        => true,
-                'ouput'         => false,
+                'output'        => false,
             ));
             
             // CSS
