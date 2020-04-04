@@ -1,6 +1,8 @@
 # TailwindAPI.com - PHP SDK
 
-## Installation
+A `CURL` wrapper to build TailwindCSS with PHP.
+
+## Default usage
 
 ```php
 require('tailwindapi.php');
@@ -8,7 +10,7 @@ require('tailwindapi.php');
 $css = $tailwind->build(); // Return default Tailwind compilation
 ```
 
-## Default arguments
+### Default arguments
 
 ```php
 $css = $tailwind->build(array(
@@ -20,7 +22,7 @@ $css = $tailwind->build(array(
 ));
 ```
 
-## Custom inline configuration
+### Custom inline configuration
 
 ```php
 $css = $tailwind->build(array(
@@ -43,7 +45,7 @@ $css = $tailwind->build(array(
 ));
 ```
 
-## Custom configuration files
+### Custom configuration files
 
 ```php
 $css = $tailwind->build(array(
@@ -52,7 +54,7 @@ $css = $tailwind->build(array(
 ));
 ```
 
-## Ouput to file
+### Ouput to file
 
 ```php
 $css = $tailwind->build(array(
