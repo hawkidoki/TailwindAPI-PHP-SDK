@@ -34,7 +34,7 @@ $css = $tailwind->build(array(
     'config'        => false, // Default: Tailwind Config (module.exports = {theme:{extend:{}},variants:{},plugins:[]})
     'autoprefixer'  => true,  // Default: Autoprefixer enabled
     'minify'        => true,  // Default: Minify enabled
-    'prefixer'      => true,  // Default: Prefixer disabled
+    'prefixer'      => false, // Default: Prefixer disabled
     'output'        => false, // Default: Return compiled CSS
 ));
 ```
