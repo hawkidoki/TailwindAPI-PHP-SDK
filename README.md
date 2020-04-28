@@ -4,6 +4,15 @@
 
 A `CURL` wrapper to build TailwindCSS with PHP.
 
+Installed PostCSS plugins: 
+* [Autoprefixer](https://github.com/postcss/autoprefixer)
+* [CSSNano](https://github.com/cssnano/cssnano)
+* [PostCSS Nested](https://github.com/postcss/postcss-nested)
+* [PostCSS Prefix Selector](https://github.com/RadValentin/postcss-prefix-selector)
+
+Installed TailwindCSS plugins:
+* [Tailwind Custom Forms](https://github.com/tailwindcss/custom-forms)
+
 ### Default usage
 
 ```php
