@@ -72,6 +72,23 @@ $css = $tailwind->build(array(
 ));
 ```
 
+### Prefixer usage
+
+```php
+$css = $tailwind->build(array(
+    'prefixer' => '.my-prefix'
+));
+```
+
+```php
+$css = $tailwind->build(array(
+    'prefixer' => array(
+        'prefix' => '.my-prefix',
+        'exclude' => array('html')
+    )
+));
+```
+
 ### Ouput to file
 
 ```php
