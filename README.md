@@ -30,11 +30,12 @@ $css = $tailwind->build(); // Return default Tailwind compilation
 
 ```php
 $css = $tailwind->build(array(
-    'css'           => false, // Default Tailwind PostCSS (@tailwind base; @tailwind components; @tailwind utilities;)
-    'config'        => false, // Default Tailwind Config
-    'autoprefixer'  => true,  // Autoprefixer enabled
-    'minify'        => true,  // Minify enabled
-    'output'        => false, // Return compiled CSS
+    'css'           => false, // Default: Tailwind PostCSS (@tailwind base; @tailwind components; @tailwind utilities;)
+    'config'        => false, // Default: Tailwind Config (module.exports = {theme:{extend:{}},variants:{},plugins:[]})
+    'autoprefixer'  => true,  // Default: Autoprefixer enabled
+    'minify'        => true,  // Default: Minify enabled
+    'prefixer'      => true,  // Default: Prefixer disabled
+    'output'        => false, // Default: Return compiled CSS
 ));
 ```
 
