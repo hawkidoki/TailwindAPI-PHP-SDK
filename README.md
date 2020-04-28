@@ -103,6 +103,6 @@ $css = $tailwind->build(array(
 
 ```php
 $tailwind->build(array(
-    'output' => 'path/to/output.css', // PHP will need write permission
+    'output' => 'path/to/output.css', // PHP need write permission
 ));
 ```
