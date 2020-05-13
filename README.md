@@ -17,6 +17,7 @@ Installed TailwindCSS plugins:
 
 ```php
 <?php
+
 // Load
 require('tailwindapi.php');
 
@@ -31,6 +32,7 @@ $css = $tailwind->build(); // Return default Tailwind compilation
 
 ```php
 <?php
+
 $css = $tailwind->build(array(
     'css'           => false, // Default: Tailwind PostCSS (@tailwind base; @tailwind components; @tailwind utilities;)
     'config'        => false, // Default: Tailwind Config (module.exports = {theme:{extend:{}},variants:{},plugins:[]})
@@ -45,6 +47,7 @@ $css = $tailwind->build(array(
 
 ```php
 <?php
+
 $css = $tailwind->build(array(
     'css' => '
         @tailwind base;
@@ -80,6 +83,7 @@ $css = $tailwind->build(array(
 
 ```php
 <?php
+
 $css = $tailwind->build(array(
     'css' => 'path/to/postcss-file.css',
     'config' => 'path/to/config.js',
@@ -90,6 +94,7 @@ $css = $tailwind->build(array(
 
 ```php
 <?php
+
 $css = $tailwind->build(array(
     'prefixer' => '.my-prefix'
 ));
@@ -97,6 +102,7 @@ $css = $tailwind->build(array(
 
 ```php
 <?php
+
 $css = $tailwind->build(array(
     'prefixer' => array(
         'prefix' => '.my-prefix',
@@ -109,6 +115,7 @@ $css = $tailwind->build(array(
 
 ```php
 <?php
+
 $tailwind->build(array(
     'output' => 'path/to/output.css', // PHP needs write permission
 ));
